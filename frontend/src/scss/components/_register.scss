@@ -80,10 +80,11 @@
     align-items: center;
 
     &-btn {
-      padding: 20px 10px;
+      font-weight: 600;
+      font-size: 45px;
+      padding: 5px 17px;
       border-radius: 50%;
-      border: none;
-      background: linear-gradient(180deg, #00FF85 0%, #86FF00 100%);
+      border: 1px solid black;
       max-width: 90px;
       color: #3a3a3a;
       cursor: pointer;

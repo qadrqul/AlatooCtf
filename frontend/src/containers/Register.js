@@ -52,9 +52,9 @@ const Register = () => {
     return (
         <form onSubmit={onSubmit}>
             <div className="register">
-                <div className="register__page">
-                    <p>Register your team!</p>
-                </div>
+                {/*<div className="register__page">*/}
+                {/*    <p>Register your team!</p>*/}
+                {/*</div>*/}
 
                 <div className="container-xs">
                     <div className="register__block">
@@ -152,7 +152,7 @@ const Register = () => {
                                 disabled={user.users.length > 4}
                                 onClick={addInputHandler}
                             >
-                                Add another member
+                            +
                             </button>
                         </div>
 

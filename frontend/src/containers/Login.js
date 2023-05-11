@@ -35,15 +35,15 @@ const Login = () => {
     return (
         <form onSubmit={onSubmit}>
             <div className="login">
-                <div className="login__page">
-                    <div></div>
-                    <p className="login__title">Login</p>
-                    <Link to="/register">
-                        <button type="button" className="login__switch-page-btn">
-                            Sign Up
-                        </button>
-                    </Link>
-                </div>
+                {/*<div className="login__page">*/}
+                {/*    <div></div>*/}
+                {/*    <p className="login__title">Login</p>*/}
+                {/*    <Link to="/register">*/}
+                {/*        <button type="button" className="login__switch-page-btn">*/}
+                {/*            Sign Up*/}
+                {/*        </button>*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
 
                 <div className="container-xs">
                     <div className="login__block">
