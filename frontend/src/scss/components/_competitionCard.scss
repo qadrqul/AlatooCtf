@@ -1,0 +1,50 @@
+@import "../variables";
+
+.competition-card {
+  width: 260px;
+  background: $white;
+  padding: 22px 10px 90px 10px;
+  cursor: pointer;
+
+  margin-bottom: 30px;
+
+  &__top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+      color: #293045;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  &__started {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    text-align: right;
+
+    &-y {
+      color: #028529 !important;
+    }
+
+    &-n {
+      color: #850211 !important;
+    }
+  }
+
+  &__title {
+    word-break: break-word;
+    margin-top: 40px;
+    color: #293045;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+  }
+}

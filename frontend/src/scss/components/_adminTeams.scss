@@ -1,0 +1,10 @@
+@import "../variables";
+
+.admin-teams {
+  &__page {
+    background: #76A0E0;
+    padding: 20px 50px;
+    color: $white;
+    margin-bottom: 50px;
+  }
+}

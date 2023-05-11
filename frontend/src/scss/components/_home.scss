@@ -1,0 +1,33 @@
+@import "../variables";
+
+.home {
+
+  &__page {
+    background: #76A0E0;
+    padding: 20px 50px;
+    color: $white;
+    margin-bottom: 35px;
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 1100px;
+    }
+  }
+
+  &__description {
+    p {
+      margin-top: 20px;
+      font-weight: 300;
+      font-size: 16px;
+      letter-spacing: 0.4px;
+      line-height: 25px;
+      white-space: pre-wrap;
+
+    }
+  }
+
+}

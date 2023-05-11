@@ -1,0 +1,94 @@
+@import "../variables";
+
+.admin-practice {
+  &__page {
+    background: #76A0E0;
+    padding: 20px 50px;
+    color: $white;
+
+    &-block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-1 {
+      font-size: 22px;
+    }
+
+    &-2 {
+      font-size: 22px;
+    }
+  }
+
+  //&__empty-block {
+  //  margin: 35px 0;
+  //  background: $white;
+  //  padding: 40px 0;
+  //  border-radius: 5px;
+  //
+  //  box-shadow: 4px 4px 4px 0 #00000005;
+  //}
+
+  &__progress-block {
+    background: $white;
+    border-radius: 5px;
+    padding: 13px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__new-challenge-btn {
+    background: #4CBC00;
+    padding: 12px 20px;
+    color: $white;
+    border-radius: 50px;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__progress-icon {
+    width: 25px;
+  }
+
+  &__progress-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 5px;
+    letter-spacing: 0.6px;
+    color: #001629;
+
+  }
+
+  &__main {
+    margin-top: 28px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__challenges {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0;
+
+    &-error {
+      margin: 30px auto auto;
+      width: 500px;
+      letter-spacing: 1.5px;
+      font-size: 17px;
+      color: #354675;
+      text-align: center;
+    }
+  }
+}

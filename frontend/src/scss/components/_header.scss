@@ -1,0 +1,91 @@
+@import "../variables";
+
+.header {
+  background: #001629;
+  color: $white;
+  padding: 15px 0;
+  margin-bottom: 35px;
+
+  &__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__link {
+    margin-right: -25%;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    &-link {
+    }
+    &-logo {
+      width: 15%;
+      height: 15%;
+    }
+    &-text {
+      padding-left: 3%;
+      color: #4CBC00;
+      font-size: 23px;
+      font-weight: bold;
+    }
+  }
+
+  &__list {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      li {
+        font-size: 18px;
+        font-weight: 400;
+        user-select: none;
+        cursor: pointer;
+        color: $white;
+        padding-right: 60px;
+      }
+      li:hover {
+        color: #5F6675;
+        transition: color 0.3s;
+      }
+    }
+
+    &-last {
+      max-width: 100px;
+      padding-right: 0 !important;
+    }
+  }
+  &__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      font-size: 18px;
+      font-weight: 400;
+      user-select: none;
+      cursor: pointer;
+      color: $white;
+      padding-right: 30px;
+    }
+  }
+  &__dropdown:hover {
+    color: #5F6675;
+    transition: color 0.3s;
+  }
+  &__dropdown {
+    cursor: pointer;
+
+    &-user:hover {
+      color: #5F6675;
+      transition: color 0.3s;
+    }
+    &-user {
+      font-size: 18px;
+    }
+  }
+}

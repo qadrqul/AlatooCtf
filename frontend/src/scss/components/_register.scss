@@ -1,0 +1,132 @@
+@import "../variables";
+
+.register {
+  &__page {
+    background: #76A0E0;
+    padding: 20px 0;
+    color: $white;
+
+    p {
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+
+  &__block {
+    margin-top: 5%;
+  }
+
+  &__row-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__input-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+    label {
+      letter-spacing: 0.8px;
+      font-size: 14px;
+      color: #030229;
+      padding-bottom: 8px;
+      padding-left: 7px;
+    }
+
+    &-row {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 25px;
+      width: 32%;
+
+      label {
+        letter-spacing: 0.8px;
+        font-size: 14px;
+        color: #030229;
+        padding-bottom: 8px;
+        padding-left: 7px;
+      }
+    }
+  }
+
+  &__eye-block {
+    display: flex;
+    position: relative;
+  }
+
+  &__input {
+    width: 100%;
+    box-shadow: 0 0 0 30px #ffffff inset !important;
+    border: 1px solid #14387940;
+    padding: 15px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    &-eye {
+      cursor: pointer;
+      position: absolute;
+      right: 15px;
+      top: 10px;
+    }
+  }
+
+  &__add-user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &-btn {
+      padding: 20px 10px;
+      border-radius: 50%;
+      border: none;
+      background: linear-gradient(180deg, #00FF85 0%, #86FF00 100%);
+      max-width: 90px;
+      color: #3a3a3a;
+      cursor: pointer;
+
+      &:disabled {
+        cursor: not-allowed;
+        background: #d92929;
+        color: #fff;
+      }
+    }
+  }
+
+  &__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      display: contents;
+    }
+  }
+
+  &__btn {
+    margin-top: 30px;
+    width: 49%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 100;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &-cancel {
+      border: 1px solid #143879;
+      color: #000;
+      background: transparent;
+    }
+
+    &-accept {
+      background: #2FA158;
+      color: $white;
+    }
+  }
+}

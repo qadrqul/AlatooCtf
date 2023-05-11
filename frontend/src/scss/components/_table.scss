@@ -1,0 +1,133 @@
+
+.table {
+  overflow: auto;
+  margin-top: 15px;
+  background: #ffffff;
+
+  table {
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+    border-spacing: 0;
+    border-radius: 20px;
+    padding: 2px;
+  }
+
+  table, th, td {
+    border-bottom: 1px solid #bdd0de;
+    border-right: none;
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 0;
+
+    &:first-child {
+      border-left: 1px solid #bdd0de;
+      border-top: 1px solid #bdd0de;
+    }
+
+    &:last-child {
+      border-right: 1px solid #bdd0de;
+    }
+  }
+
+  &__scoreboard {
+    td {
+      padding: 25px 0;
+    }
+  }
+
+  td {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    color: #354052;
+  }
+
+  th {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 0.6px;
+    color: #7F8FA4;
+  }
+
+  &__actions {
+    &-th {
+      width: 80px;
+    }
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  &__subFields {
+    font-size: 12px;
+    border-bottom: 1px solid #acc6d9;
+    padding: 10px 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    span {
+      font-size: 14px;
+      color: #354052;
+    }
+  }
+
+  &__score {
+    width: 150px;
+  }
+
+  &__date {
+    width: 200px;
+  }
+
+  &__link {
+    position: relative;
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: #272294;
+
+    &::before, &::after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      background: #272294;
+      bottom: -3px;
+      right: 0;
+    }
+  }
+
+  &__sm {
+    max-width: 220px;
+    word-break: break-word;
+  }
+
+  &__xs {
+    width: 20px;
+    word-break: break-all;
+  }
+
+  &__s {
+    width: 180px;
+    font-size: 15px;
+    word-break: break-all;
+  }
+
+  &__date {
+    font-size: 14px;
+  }
+
+  &__green {
+    background: #bceac5;
+  }
+
+  &__red {
+    background: #e3bebe;
+  }
+}

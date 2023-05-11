@@ -1,0 +1,71 @@
+@import "../variables";
+
+.category {
+  border-radius: 5px;
+  width: 320px;
+  background: $white;
+  padding: 25px 18px 90px 18px;
+  margin-right: 65px;
+
+  &-title {
+    color: #474D5F;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.6px;
+  }
+
+  &__buttons {
+    margin-top: 40px;
+  }
+
+  &__radio-block {
+    padding-bottom: 20px;
+
+    label {
+      padding-left: 8px;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0.6px;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &__search {
+    margin-top: 50px;
+  }
+
+  &__search-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    label {
+      color: #354675;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      padding-bottom: 10px;
+    }
+
+    img {
+      position: absolute;
+      right: 15px;
+      bottom: 17px;
+    }
+  }
+
+  &__search-input {
+    width: 100%;
+    box-shadow: 0 0 0 30px #ffffff inset !important;
+    border: 1px solid #14387940;
+    padding: 15px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+}
+

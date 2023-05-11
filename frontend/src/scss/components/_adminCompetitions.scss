@@ -1,0 +1,62 @@
+@import "../variables";
+
+.admin-competitions {
+  &__page {
+    background: #76A0E0;
+    padding: 20px 50px;
+    color: $white;
+  }
+
+  &__info {
+    background: $white;
+    border-radius: 5px;
+
+    &-block {
+      padding: 15px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        color: #001629;
+      }
+    }
+  }
+
+  &__new-btn {
+    background: #4CBC00;
+    padding: 12px 20px;
+    color: $white;
+    border-radius: 50px;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__main {
+    margin-top: 28px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0;
+
+    &-error {
+      margin-top: 30px;
+      width: 500px;
+      letter-spacing: 1.5px;
+      font-size: 17px;
+      color: #354675;
+    }
+  }
+}

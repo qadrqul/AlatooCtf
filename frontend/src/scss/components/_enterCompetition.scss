@@ -1,0 +1,72 @@
+@import "../variables";
+
+.enter-competition {
+  &-error {
+    margin: 30px auto auto;
+    width: 500px;
+    letter-spacing: 1.5px;
+    font-size: 17px;
+    color: #354675;
+    text-align: center;
+  }
+  &__page {
+    background: #76A0E0;
+    padding: 20px 50px;
+    color: $white;
+  }
+
+  &__info {
+    background: $white;
+    border-radius: 5px;
+
+    &-block {
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 0.6px;
+        color: #001629;
+      }
+    }
+  }
+
+  &__input-block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__input {
+    width: 300px;
+    box-shadow: 0 0 0 30px #ffffff inset !important;
+    border: 1px solid #14387940;
+    padding: 15px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 8px;
+  }
+
+  &__button-block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__enter {
+    border: none;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    background: #1bc776;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}

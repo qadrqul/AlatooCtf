@@ -1,0 +1,56 @@
+@import "../variables";
+
+.score-board {
+  &__page {
+    background: #76A0E0;
+    padding: 20px 50px;
+    color: $white;
+    margin-bottom: 60px;
+  }
+
+  &__ranking {
+    background: $white;
+    border-radius: 5px;
+    padding: 13px 15px 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+
+  &__ranking-icon {
+    width: 25px;
+  }
+
+  &__ranking-title {
+    font-size: 20px;
+    margin-left: 5px;
+    letter-spacing: 0.6px;
+  }
+
+  &__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+
+    li {
+      margin-right: 30px;
+      padding: 10px 30px;
+      background: #001629;
+      color: white;
+
+      font-size: 16px;
+      font-weight: 200;
+      letter-spacing: 1px;
+
+      transition: all 0.2s;
+      border-radius: 50px;
+
+
+      &:hover {
+        background: #013865;
+        cursor: pointer;
+      }
+    }
+  }
+}
