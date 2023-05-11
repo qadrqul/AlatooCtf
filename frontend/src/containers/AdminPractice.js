@@ -92,7 +92,7 @@ const AdminPractice = () => {
                         <div className="admin-practice__challenges">
                             {challenges.map(c =>
                                 <ChallengeCard
-                                    key={c.id}
+                                    key={c._id}
                                     challenge={c}
                                     isAdmin
                                     onOpenEditModal={openEditChallengeModal}
