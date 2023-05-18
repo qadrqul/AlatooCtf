@@ -1,5 +1,5 @@
 # VOIDBOX
-VOIDBOX is a Capture The Flag (CTF) platform designed for students of Alatoo International University. CTF competitions are cybersecurity challenges that involve solving a variety of puzzles, riddles, and hacking scenarios to uncover hidden flags or vulnerabilities.
+VOIDBOX is a Capture The Flag (CTF) platform designed for students of Ala-Too International University. CTF competitions are cybersecurity challenges that involve solving a variety of puzzles, riddles, and hacking scenarios to uncover hidden flags or vulnerabilities.
 
 The VOIDBOX platform likely provides a dedicated environment where students can participate in CTF challenges and enhance their skills in various cybersecurity domains. It may offer a range of challenges with different difficulty levels, covering areas such as cryptography, web security, reverse engineering, forensics, and more.
 
